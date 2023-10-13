@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <style>
+        body{
+        
+            background: url("pexels-anush-gorak-1229356 (1).jpg");
+            margin: 0px;
+            padding: 0px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .left{
+            position: absolute;
+            margin: 15px 12px;
+            padding: 20px 12px;
+            display: inline-block;
+        }
+        .left h3{
+            padding: 0px 80px;
+            margin-top: 20rem;
+        }
+        .left h1{
+            padding: 0px 80px;
+        }
+        .left img{
+            height: 70px;
+            width: 100px;
+            border-radius: 75%;
+            border: 2px dotted white;
+           
+        }
+        .middle{
+            display: block;
+            position: relative;
+            width: 80%;
+            margin: 0px 120px;
+            
+        }
+        .navbar{
+            display: inline-block;
+            list-style: none;
+            margin: 50px 60px;
+            padding: 10px 10px 10px 10px;
+            border: 2px solid rgb(7, 6, 6);
+            border-radius: 100px;
+            background-color: rgb(250, 247, 247);
+            left: auto;
+
+        }
+        .navbar li{
+            display: inline-block;
+            text-align: center;
+        }
+        .navbar li a{
+            text-decoration: none;
+            padding: 35px 50px 0px 70px;
+            color: rgb(12, 11, 11);
+            
+            
+        }
+        .navbar li a:hover,.navbar li a:active{
+            color: rgb(182, 16, 16);
+            text-decoration: underline;
+        }
+        .right{
+            display: inline-block;
+            position: absolute;
+            right: 63px;
+            top: 56px;
+            
+        }
+        .btn{
+            margin: 2px 6px;
+            color: rgb(7, 6, 6);
+            background-color: rgb(252, 249, 249);
+            padding: 6px 18px;
+            border-radius: 30px;
+            font-size: 15px;
+        }
+        .btn:hover,.btn:active{
+            color: red;
+            text-decoration: underline;
+        }
+        .container{
+            float: right;
+            border: 1px solid rgb(251, 245, 245);
+            margin: 70px 70px;
+            width: 25%;
+            padding: 10px 80px 40px 50px;
+            border-radius: 45px;
+        
+        }
+        .form input{
+            margin: 5px auto;
+            width: 400px;
+            padding: 2px 4px;
+            text-align: center;
+            display: block;
+            border: 2px solid black;
+            margin: 11px auto;
+            border-radius: 10px;
+            
+        }
+        .container h4{
+            color: rgb(252, 248, 248);
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Geneva,Tahoma,Verdana,sans-serif;
+            text-align: center;
+        }
+        .container button{
+            color: white;
+            background-color: red;
+            width: 400px;
+            border-radius: 20px;
+            padding: 2px 4px;
+            margin: 11px auto;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="113307-OON95J-649.jpg">
+            <h3 style="color: white;">ARE YOU READY TO</h3>
+            <h1 style="color: red;">GET FIT, <span style="color: rgb(251, 246, 246);">STRONG</span></h1>
+            <h1 style="color: white;">& MOTIVATED !</h1>
+        </div>
+        <div class="middle">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">Join now</button>
+        </div>
+    </header>
+    <div class="container">
+        <h4>Fill The Below Form :</h4>
+        <div class="form">
+            <input type="text" name="text" placeholder="Enter the name">
+        </div>
+        <div class="form">
+            <input type="mail" id="email" placeholder="Enter the email">
+        </div>
+        <div class="form">
+            <input type="age" name="number" placeholder="Enter the age">
+        </div>
+        <div class="inline-radio" style="color: rgb(246, 240, 240);">
+            <input type="radio" name="gender" placeholder="Enter the gender">Male
+            <input type="radio" name="gender" placeholder="Enter the gender">Female
+            <input type="radio" name="gender" placeholder="Enter the gender">Others
+        </div>
+        <div>
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
